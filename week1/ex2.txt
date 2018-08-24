@@ -1,0 +1,14 @@
+10053  history | tail
+10054  pwd
+10055  whoami
+10056  echo "Hello\nfirst\nlab" | toilet -f mono12 | lolcat
+10057  touch test
+10058  echo "rm test" > test
+10059  chmod +x test
+10060  ./test
+10061  history | tail
+10062  history | tail -n 10
+10063  history | tail -n 11
+10064  history | tail -n 14
+10065  history | tail -n 18
+10066  history | tail -n 17
