@@ -91,12 +91,17 @@ LinkedList *create_list(){
 
 int main(){
     LinkedList *list = create_list();
-    append_node(list, 0);
-    append_node(list, 1);
     append_node(list, 2);
     append_node(list, 3);
-    //insert_node(list, 0, 100);
+    append_node(list, 4);
+    append_node(list, 6);
+    print_list(list);
+    insert_node(list, 3, 5);
+    insert_node(list, 0, 0);
+    insert_node(list, 1, 1);
+    insert_node(list, 100, 1000);
     delete_node(list, 1);
+    delete_node(list, 100);
     print_list(list);
     return 0;
 }
