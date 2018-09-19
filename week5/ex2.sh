@@ -7,13 +7,13 @@ FILE="ex2.txt"
 FILELOCK=$FILE.lock
 # rm $FILE.lock
 
-echo '1' > $FILE
+# echo '1' > $FILE
 
 N=500
 while [ $N -gt 0 ]
 do
     if $(ln $FILE $FILELOCK 2> /dev/null); then
-        echo $(($(tail -n 1 $FILE) + 1)) >> $FILELOCK
+        echo $(($(tail -n 1 $FILE) + 1)) >> $FILE
         rm $FILELOCK
         N=$(($N-1))
     fi
