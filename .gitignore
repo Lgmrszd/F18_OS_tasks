@@ -4,6 +4,6 @@ cmake-build-debug/*
 .idea/*
 CMakeLists.txt
 .vimrc
-**/ex*
-!**/ex*.c
-!**/ex*.sh
+*
+!*.c
+!*.sh
