@@ -3,7 +3,7 @@
 #define N 10
 
 
-pthread_t _threads[10];
+pthread_t _threads[N];
 
 void *routine(void *arg) {
         printf("Text in thread number  >> %d !!!\n", *((int *) arg));
@@ -14,10 +14,10 @@ void *routine(void *arg) {
 int main() {
     for (int i = 0; i < N; i++) {
         printf("Creating thread number ++ %d\n", i);
-        pthread_create(&_threads[0], NULL, routine, (void*) &i);
+        pthread_create(&_threads[i], NULL, routine, (void*) &i);
         printf("Created thread number  == %d\n", i);
     }
     for (int i = 0; i < N; i++) {
-        pthread_join(_threads[0], NULL);
+        pthread_join(_threads[i], NULL);
     }
 }
