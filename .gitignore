@@ -1,9 +1,10 @@
+
 cmake-build-debug
 cmake-build-debug/*
 .idea
 .idea/*
 CMakeLists.txt
 .vimrc
-*
-!*.c
-!*.sh
+week*/*
+!week*/*.c
+!week*/*.sh
