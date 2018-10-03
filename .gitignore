@@ -8,3 +8,4 @@ CMakeLists.txt
 week*/*
 !week*/*.c
 !week*/*.sh
+!week*/*.txt

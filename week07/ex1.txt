@@ -1,0 +1,2 @@
+   text	   data	    bss
+   3461	    672	     16
