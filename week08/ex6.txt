@@ -1,0 +1,5 @@
+8 KB = 2^3*2^10 B = 2^13 B
+13 bits required to store offset
+16-13=3 bits
+2^3 = 8 pages avaible
+

@@ -1,0 +1,2 @@
+Physical address shows real index of hardware memory. Virtual address shows index of virtual memory.
+Virtual address usually do not correspond to same physical address, also virtual memory address even may not be assigned to physical unless needed.
