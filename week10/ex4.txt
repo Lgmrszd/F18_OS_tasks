@@ -1,0 +1,1 @@
+File "file1" (inode 5798873) have filenames: link1
