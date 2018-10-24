@@ -1,0 +1,3 @@
+5821596 -rw-rw-r-- 3 mikhail mikhail 10 окт 24 14:10 _ex1_1.txt
+5821596 -rw-rw-r-- 3 mikhail mikhail 10 окт 24 14:10 _ex1_2.txt
+5821596 -rw-rw-r-- 3 mikhail mikhail 10 окт 24 14:10 _ex1.txt
