@@ -1,0 +1,2 @@
+In first example, the text is written to buffer (which is set to be line-buffered) before fork. After fork, both processes write data from buffer to stdout, which cause text duplication.
+In second example, the text is written to stdout before fork, because it contains '\n' character at end.

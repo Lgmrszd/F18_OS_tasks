@@ -12,4 +12,3 @@ rm ex1.txt
 ./ex1
 cat ex1.txt
 rm ex1
-rm ex1.txt
