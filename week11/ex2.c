@@ -3,9 +3,9 @@
 #include <unistd.h>
 
 int main() {
-    setvbuf(stdout, NULL, _IOFBF, 0);
+    setvbuf(stdout, NULL, _IOLBF, 0);
     char *str_data = "Hello\n";
-    int n = strlen(str_data); 
+    int n = strlen(str_data);
     printf("%c", *str_data);
     for (int i=1; i<n; i++) {
         sleep(1);
